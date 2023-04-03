@@ -1,2 +1,0 @@
-# Zadania_koncowe
- Zadania
