@@ -1,5 +1,4 @@
 # Zadania_koncowe 
- Zadania
 Mateusz Kowalczuk
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -34,4 +33,3 @@ Napisz skrypt, który:
     wybierze opcję płatności - Pay by Check,
     kliknie na "order with an obligation to pay",
     zrobi screenshot z potwierdzeniem zamówienia i kwotą.
-
