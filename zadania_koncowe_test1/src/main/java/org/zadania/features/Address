@@ -1,0 +1,8 @@
+Feature: Address
+  Scenario: Create a new address
+
+    Given an open browser with "https://mystore-testlab.coderslab.pl/index.php?controller=address"
+    When I create a new address
+    Then the new address should have the following information:
+      | alias       | address              | city     | zipPostalCode | country | phone     |
+      | My Addresss | Pl. Politechniki 1   | Warszawa |    00-661     | Polska  | 888888888 |
