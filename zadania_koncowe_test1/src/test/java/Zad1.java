@@ -55,14 +55,13 @@ public class Zad1 {
         WebElement city = driver.findElement(By.xpath("//*[@id=\"field-city\"]"));
         city.clear();
         city.sendKeys("Warszawa1");
-        WebElement stateChose = driver.findElement(By.xpath("//*[@id=\"field-id_state\"]/option[2]"));
-        stateChose.click();
+//        WebElement stateChose = driver.findElement(By.xpath("//*[@id=\"field-id_state\"]/option[2]"));
+//        stateChose.click();
         WebElement postcode = driver.findElement(By.xpath("//*[@id=\"field-postcode\"]"));
         postcode.clear();
         postcode.sendKeys("00662");
-//        WebElement country = driver.findElement(By.xpath("//*[@id=\"field-id_country\"]/option[2]"));
-//        country.clear();
-//        country.sendKeys("Polska");
+        WebElement setCountry = driver.findElement(By.cssSelector("#field-id_country > option:nth-child(2)"));
+        setCountry.click();
         WebElement phoneMobile = driver.findElement(By.xpath("//*[@id=\"field-phone\"]"));
         phoneMobile.clear();
         phoneMobile.sendKeys("888888988");
